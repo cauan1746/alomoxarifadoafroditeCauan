@@ -2,7 +2,7 @@
 
 namespace AlmoxafiradoFront.Controllers
 {
-    public class FornecedorController1 : Controller
+    public class FornecedorController : Controller
     {
         public IActionResult Index()
         {
