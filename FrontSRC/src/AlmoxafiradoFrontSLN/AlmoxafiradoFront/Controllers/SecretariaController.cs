@@ -1,12 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace AlmoxarifadoBackAPI.Controllers
+namespace AlmoxafiradoFront.Controllers
 {
-    public class FornecedorController : Controller
+    public class SecretariaController : Controller
     {
         public IActionResult Index()
         {
-
             return View();
         }
     }
