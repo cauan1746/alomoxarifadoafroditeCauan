@@ -10,8 +10,8 @@ namespace AlmoxarifadoBackAPI.Controllers
     [ApiController]
     public class ProdutoController : ControllerBase
     {
-        private readonly IProdutoRepositorio _db;
-        public ProdutoController(IProdutoRepositorio db)
+        private readonly IFonecedorRepositorio _db;
+        public ProdutoController(IFonecedorRepositorio db)
         {
             _db =db;
       
