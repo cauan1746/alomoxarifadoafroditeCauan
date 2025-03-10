@@ -10,6 +10,7 @@ namespace AlmoxarifadoBackAPI.Controllers
          private readonly IFornecedorRepositorio _db;
         public FornecedorController(IFornecedorRepositorio db)
         {
+<<<<<<< HEAD
             _db = db;
 
         }
@@ -42,6 +43,10 @@ namespace AlmoxarifadoBackAPI.Controllers
             _db.Add(novaFornecedor);
             return Ok("Fornecedor com Sucesso");
         }
+=======
+
+            return View();
+>>>>>>> a32f9cdb547b5ee0963854e0060f7c274b67af30
         }
     }
 

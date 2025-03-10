@@ -13,7 +13,11 @@ namespace AlmoxarifadoBackAPI.Repositorio
 
         public void Add(Produto produto)
         {
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> a32f9cdb547b5ee0963854e0060f7c274b67af30
             _db.Produto.Add(produto);
             _db.SaveChanges();
         }
